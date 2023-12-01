@@ -1,0 +1,22 @@
+(footprint "YZ72015053P-01" (version 20221018) (generator pcbnew)
+  (layer "F.Cu")
+  (attr smd)
+  (fp_text reference "REF**" (at 0 2.6924 unlocked) (layer "F.SilkS") hide
+      (effects (font (size 1 1) (thickness 0.1)))
+    (tstamp f5bb4990-ae24-496d-a163-b1a68448f503)
+  )
+  (fp_text value "YZ72015053P-01" (at 0 4.1924 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 93c762d0-ad8d-4fa6-8a76-0404ffbaf354)
+  )
+  (fp_text user "${REFERENCE}" (at 0 5.6924 unlocked) (layer "F.Fab") hide
+      (effects (font (size 1 1) (thickness 0.15)))
+    (tstamp 955e9d94-dca3-4ea6-9986-3dbb1828998f)
+  )
+  (pad "1" thru_hole circle (at 0 0) (size 2.05 2.05) (drill 0.95) (layers "*.Cu" "*.Mask" "F.Paste") (tstamp 84088cd2-dde1-4d87-bac5-bfd942b49cfb))
+  (model "C:/Users/Mitch/GitRepos/HHL-GameCube-Parts/PCB/Library/models/YZ72015053P-01.step"
+    (offset (xyz 0 0 0))
+    (scale (xyz 1 1 1))
+    (rotate (xyz 0 0 0))
+  )
+)
