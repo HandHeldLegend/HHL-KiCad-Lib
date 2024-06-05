@@ -3,15 +3,15 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(property "Reference" "SW10"
+	(property "Reference" "SWDR1"
 		(at -0.0254 6.0438 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "d26a760c-29c9-428d-9f68-de522ccbafee")
+		(uuid "98fdc290-3a67-4c1f-93a6-72b2d23ff1ea")
 		(effects
 			(font
-				(size 1 1)
+				(size 0.6 0.6)
 				(thickness 0.1)
 			)
 		)
@@ -20,7 +20,8 @@
 		(at -0.0254 7.5438 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "21d07e61-d3fc-415e-861d-ccef0680b461")
+		(hide yes)
+		(uuid "2275687a-9d39-40fc-a1f3-b145a779c6b1")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +34,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "834cde67-ad72-44c6-8748-73f3dd639358")
+		(uuid "a3b44e3e-9416-435b-883c-85677f9011ca")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -45,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "beaf2222-0b97-490c-a972-08a63a10119f")
+		(uuid "254e2e29-7b2d-46d6-b73d-5c4ea195d1d0")
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -57,38 +58,14 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "d4df7219-e86d-451a-aac9-6567ad991a89")
+		(uuid "80150753-628f-43b5-96f3-726df86bc8c6")
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 		)
 	)
-	(property "dnp" ""
-		(at 0 0 90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "9452e714-8cb8-4a02-b156-273084200318")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(property "exclude_from_bom" ""
-		(at 0 0 90)
-		(layer "F.Fab")
-		(hide yes)
-		(uuid "4f7ac31e-58ce-4b1a-a2a0-4368a1a67b9f")
-		(effects
-			(font
-				(size 1 1)
-				(thickness 0.15)
-			)
-		)
-	)
-	(attr smd exclude_from_bom)
+	(attr smd)
 	(fp_circle
 		(center 0 0)
 		(end 3.125 0)
@@ -98,7 +75,7 @@
 		)
 		(fill solid)
 		(layer "F.Mask")
-		(uuid "d030cdd0-a498-4afb-9420-71c2005c7a55")
+		(uuid "e60f93f5-cee7-4437-9c8e-93b656a12b45")
 	)
 	(fp_line
 		(start 2.309363 -2.105343)
@@ -108,7 +85,7 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "bf8a372e-e6a8-492c-b803-77de486584a2")
+		(uuid "bc4e903b-5c5e-4414-91a3-c60ecc9fd71a")
 	)
 	(fp_line
 		(start 2.408251 -1.991469)
@@ -118,13 +95,13 @@
 			(type solid)
 		)
 		(layer "Dwgs.User")
-		(uuid "881f6b03-76fa-4d79-820c-1c4686951ed7")
+		(uuid "5a2337ea-aa64-441b-8d72-74f1d4497a2c")
 	)
 	(fp_text user "${REFERENCE}"
 		(at -0.0254 9.0438 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "fdd39649-307e-4ab3-8102-5c992c1e9f7c")
+		(uuid "9c264324-3d70-4e15-9e89-fff10f5cfe0b")
 		(effects
 			(font
 				(size 1 1)
@@ -233,7 +210,7 @@
 				(fill yes)
 			)
 		)
-		(uuid "cf9b7f66-4f76-4c2b-b2f7-94ab8e538ea4")
+		(uuid "069f3068-46c3-4809-89f7-6280f5a88536")
 	)
 	(pad "2" smd custom
 		(at 2.383405 1.820646)
@@ -333,13 +310,13 @@
 				(fill yes)
 			)
 		)
-		(uuid "ae7a7c40-31d2-4d17-8227-331d92879134")
+		(uuid "0e8484e5-ed66-4110-98dd-a21957c28c02")
 	)
 	(zone
 		(net 0)
 		(net_name "")
 		(layers "F.Cu" "Dwgs.User")
-		(uuid "fbb67ccd-4bd2-49df-be03-72352ed1e7ba")
+		(uuid "a343b101-013e-4a6f-a9ef-90e576abca2f")
 		(name "nocop")
 		(hatch edge 0.5)
 		(connect_pads
