@@ -1,0 +1,153 @@
+(footprint "PG1353"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -0.9398 1.7272 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "e9e579bb-04c0-4f14-a23d-3912b2f19d90")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "PG1353"
+		(at 0.1524 0.738 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "a954318c-2ce2-4980-8a34-4470aebb383c")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "PG1353"
+		(at 0.1524 -0.262 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e012a150-75e6-4f96-938c-4184c6a5fe33")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" "https://cdn.shopify.com/s/files/1/0657/6075/5954/files/SPEC-CPG135301D01_Kailh_Choc_V2_Low_Profile_Red_Switch_03cd29a8-065e-45f8-8053-b72dcd70616d.pdf?v=1667190153"
+		(at -0.0508 -2.9464 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e410e239-0456-4b47-99d5-ac1dd91bc881")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Kailh Choc V2 Low Profile Switch"
+		(at -0.0254 -1.778 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b862e1a-f8f4-46e2-8ea9-cc02ee97d93a")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "CPG135301D01"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "15956c50-5957-420a-80c7-cadccb8ba8c0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_circle
+		(center 4.93 0)
+		(end 6.050195 0)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "a2679fcf-1b16-471a-9963-4d8059221665")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 2.5 0)
+		(stroke
+			(width 0.001)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "db7e1827-e918-4adf-8cf3-65c33c90d439")
+	)
+	(fp_text user "LED"
+		(at 3.8862 0.4572 0)
+		(unlocked yes)
+		(layer "Cmts.User")
+		(uuid "948913b1-dd46-4054-ac9b-462373b06c8d")
+		(effects
+			(font
+				(size 0.75 0.75)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "" np_thru_hole circle
+		(at 5.15 5)
+		(size 2 2)
+		(drill 0.95)
+		(layers "F&B.Cu" "*.Mask")
+		(uuid "28d4d79e-3674-42ec-b65b-e1922bb8cff1")
+	)
+	(pad "1" thru_hole circle
+		(at -3.8 -5)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "ea459944-9980-4cbd-9909-66e233294027")
+	)
+	(pad "2" thru_hole circle
+		(at -5.9 0)
+		(size 2.4 2.4)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "5e386b12-4458-4ecb-87b0-914b7eb77bfd")
+	)
+	(model "C:/Users/Mitch/GitRepos/HHL-KiCad-Lib/models/Kailh_PG1353.STEP"
+		(offset
+			(xyz 0 0 2.56)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 180)
+		)
+	)
+)
