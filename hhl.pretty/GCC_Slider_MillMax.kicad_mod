@@ -1,0 +1,359 @@
+(footprint "GCC_Slider_MillMax"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at -3.85 -4.35 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "32848841-6c0f-4cec-81b4-aee401c09206")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "R_POT_MountingPin"
+		(at -6.05 4.15 90)
+		(layer "F.Fab")
+		(uuid "0eea073f-7250-425c-9710-8bdb424f4863")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "GCC_Slider_MillMax"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6e4b61e9-17f4-43fd-a012-f47c5b1b0bfb")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e881d7a1-0a75-49f0-975e-f4798a5c1957")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "fd49cf48-8703-463f-a016-0ac951af306d")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -5 -3.5)
+		(end -5 10.44)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d75b1e15-46d6-4914-a48a-2cf27863fa81")
+	)
+	(fp_line
+		(start -5 -3.5)
+		(end -2.59 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "4e43b989-5262-40d4-8808-ff2b759951c5")
+	)
+	(fp_line
+		(start -5 13.25)
+		(end -5 12.625)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0682ed83-7986-4c6c-a17f-77f5996e343a")
+	)
+	(fp_line
+		(start -5 13.25)
+		(end 5 13.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "86d6a52b-7371-4a30-895c-b4ead82e0710")
+	)
+	(fp_line
+		(start 2.59 -3.5)
+		(end 5 -3.5)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "d7aaa0db-b243-4ca2-876c-a9f4e28ce8ec")
+	)
+	(fp_line
+		(start 5 -3.5)
+		(end 5 10.44)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "1b8d44d9-9b73-465a-bfa7-38ae457fd518")
+	)
+	(fp_line
+		(start 5 13.25)
+		(end 5 12.62)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "f87b5817-0e7c-4028-a586-909e0d8dbfaf")
+	)
+	(fp_line
+		(start -4.85 12)
+		(end -4.85 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "dc5110cd-7c65-4f95-93a3-4ff3874150f0")
+	)
+	(fp_line
+		(start -4.35 12)
+		(end -4.35 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "1d37e8e7-648e-42a6-b0ef-9b47ffebb923")
+	)
+	(fp_line
+		(start -3.85 12)
+		(end -3.85 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "560528e1-2dc1-4679-a6fb-d598d491797d")
+	)
+	(fp_line
+		(start 3.85 12)
+		(end 3.85 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "df860bd2-cce3-40c8-a435-e0546a7ddc96")
+	)
+	(fp_line
+		(start 4.35 12)
+		(end 4.35 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "9784c3a7-7e38-4c31-9f9f-0cfc4c7d0faf")
+	)
+	(fp_line
+		(start 4.85 12)
+		(end 4.85 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "561309cf-785b-4fcf-9cbc-1ef3cc9c5d21")
+	)
+	(fp_arc
+		(start -4.85 11)
+		(mid -4.35 10.5)
+		(end -3.85 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "07f16d01-b477-4b06-9200-fc608dfba04d")
+	)
+	(fp_arc
+		(start -3.85 12)
+		(mid -4.35 12.5)
+		(end -4.85 12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "414c356f-77be-4f20-a8d1-b0342e90057b")
+	)
+	(fp_arc
+		(start 3.85 11)
+		(mid 4.35 10.5)
+		(end 4.85 11)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "7f89d7fd-5529-4033-85b3-11138f11a4c4")
+	)
+	(fp_arc
+		(start 4.85 12)
+		(mid 4.35 12.5)
+		(end 3.85 12)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "Dwgs.User")
+		(uuid "64594183-cfd3-4705-a3c3-8de0eb4712eb")
+	)
+	(fp_circle
+		(center -2.45 0)
+		(end -2.050001 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "ec7d1609-b1be-4ce5-8ffd-d4c67861e3a4")
+	)
+	(fp_circle
+		(center 0 0)
+		(end 0.399999 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "85a74d9a-5e43-4d9e-85b3-5ff786dc29eb")
+	)
+	(fp_circle
+		(center 2.45 0)
+		(end 2.849999 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(fill none)
+		(layer "Dwgs.User")
+		(uuid "dfef1517-9ff0-4c5f-b059-5946ea0d6d4c")
+	)
+	(pad "1" thru_hole oval
+		(at 0 0 180)
+		(size 2.25 3.25)
+		(drill 1.651)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "458f79be-ff8d-47c4-8a0c-83df1dde44be")
+	)
+	(pad "2" thru_hole oval
+		(at 2.5 0 180)
+		(size 2.25 3.25)
+		(drill 1.651)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b38e0c2a-e90e-40d0-a2f7-73c941c2de1e")
+	)
+	(pad "3" thru_hole oval
+		(at -2.5 0 180)
+		(size 2.25 3.25)
+		(drill 1.651)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "c66c9632-8954-4bf1-a86a-917bfb6ed12d")
+	)
+	(pad "MP" thru_hole oval
+		(at -4.35 11.5 180)
+		(size 1.6 2.5)
+		(drill oval 0.8 1.5)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "edbd3f33-a7c4-45af-9e26-16ce6f336447")
+	)
+	(pad "MP" thru_hole oval
+		(at 4.35 11.5 180)
+		(size 1.6 2.5)
+		(drill oval 0.8 1.5)
+		(property pad_prop_heatsink)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "fcf7013d-6a59-4ab6-9646-2f043450f660")
+	)
+	(model "C:/Users/Mitch/GitRepos/HHL-KiCad-Lib/models/RD7091008A.STEP"
+		(offset
+			(xyz 0 -5.1 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "C:/Users/Mitch/GitRepos/HHL-KiCad-Lib/models/MillMax-0630-0-15-15-30-27-10-0 v2.step"
+		(offset
+			(xyz 0 0 -2.54)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "C:/Users/Mitch/GitRepos/HHL-KiCad-Lib/models/MillMax-0630-0-15-15-30-27-10-0 v2.step"
+		(offset
+			(xyz -2.54 0 -2.54)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+	(model "C:/Users/Mitch/GitRepos/HHL-KiCad-Lib/models/MillMax-0630-0-15-15-30-27-10-0 v2.step"
+		(offset
+			(xyz 2.54 0 -2.54)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

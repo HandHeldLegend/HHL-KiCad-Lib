@@ -1,0 +1,141 @@
+(footprint "molex_5034800640_ribbon"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "REF**"
+		(at 0.1016 -3.4036 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "5c9470a8-b12c-4eff-99a9-c821ba7f41a5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "molex_5034800540_ribbon"
+		(at -0.0254 2.5654 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "2bd2eae0-1479-438e-8aa2-7b92f0ff5d74")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "molex_5034800640_ribbon"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e3bddad3-cf43-4ddc-ab91-cabd3205ee25")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "47d81099-745a-4aed-9e76-ee3eda089185")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c28d427a-6a6d-4a05-a781-61d969a77e30")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_poly
+		(pts
+			(xy 1.5 1.6386) (xy -1.5 1.6386) (xy -1.5 -1.8418) (xy 1.5 -1.8418)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill solid)
+		(layer "Dwgs.User")
+		(uuid "5a5c70c1-3aa8-4f6f-94b0-4df8b69123f3")
+	)
+	(fp_text user "0.3mm Total Thickness With Stiffener"
+		(at 2.4384 -0.9144 0)
+		(unlocked yes)
+		(layer "Dwgs.User")
+		(uuid "b9a310ac-ed12-457c-887b-375ba8c8c0f9")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+			(justify left bottom)
+		)
+	)
+	(pad "1" connect roundrect
+		(at 1.25 0.5)
+		(size 0.25 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "e374ff79-8d6d-473a-8013-e0ddf2edfc6f")
+	)
+	(pad "2" connect roundrect
+		(at 0.75 0.5)
+		(size 0.25 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "a2182135-9bf4-49f4-9ca3-cdee94eb109b")
+	)
+	(pad "3" connect roundrect
+		(at 0.25 0.5)
+		(size 0.25 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "dbd2c14d-e486-4056-8c6d-4bf5dac90a71")
+	)
+	(pad "4" connect roundrect
+		(at -0.25 0.5)
+		(size 0.25 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "b95ae697-85fb-45b6-aef6-2c516836fa14")
+	)
+	(pad "5" connect roundrect
+		(at -0.75 0.5)
+		(size 0.25 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "cc253c1c-33e3-4161-8888-6d06d04ab4cc")
+	)
+	(pad "6" connect roundrect
+		(at -1.25 0.5)
+		(size 0.25 2)
+		(layers "F.Cu" "F.Mask")
+		(roundrect_rratio 0.25)
+		(thermal_bridge_angle 45)
+		(uuid "81941921-0f87-4457-a058-93403beee263")
+	)
+)

@@ -204,7 +204,7 @@
 	)
 	(model "C:/Users/Mitch/GitRepos/HHL-KiCad-Lib/models/GL1807SYAE.STEP"
 		(offset
-			(xyz 0 0 0)
+			(xyz 0 0 0.538)
 		)
 		(scale
 			(xyz 1 1 1)
