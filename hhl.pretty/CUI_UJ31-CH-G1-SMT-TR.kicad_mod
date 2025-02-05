@@ -126,7 +126,7 @@
 		(start 7.575 9.655)
 		(end -2.075 9.655)
 		(stroke
-			(width 0.127)
+			(width 0.05)
 			(type solid)
 		)
 		(layer "F.SilkS")
@@ -398,16 +398,6 @@
 		)
 		(layer "F.Fab")
 		(uuid "67d59f62-6551-46a7-9157-e421db734996")
-	)
-	(fp_line
-		(start 7.575 9.655)
-		(end -2.075 9.655)
-		(stroke
-			(width 0.127)
-			(type solid)
-		)
-		(layer "F.Fab")
-		(uuid "748e3eff-3162-401e-a650-229549f0ffcc")
 	)
 	(pad "" np_thru_hole circle
 		(at -0.975 1.905)

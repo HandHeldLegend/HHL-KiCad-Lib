@@ -3,12 +3,12 @@
 	(generator "pcbnew")
 	(generator_version "8.0")
 	(layer "F.Cu")
-	(property "Reference" "REF**"
+	(property "Reference" "S3"
 		(at 0 -0.5 0)
 		(unlocked yes)
 		(layer "F.SilkS")
 		(hide yes)
-		(uuid "9a86ac9b-aebf-4d5d-b289-4ab93babd2b6")
+		(uuid "bb57774e-82c8-4a04-abae-32fa2ec685dd")
 		(effects
 			(font
 				(size 1 1)
@@ -20,7 +20,7 @@
 		(at 0 1 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "65dcf7a7-4410-4e46-abb7-252149f2ed1a")
+		(uuid "49fcbc6d-4ba8-4855-b06b-2c94ddd3ee2a")
 		(effects
 			(font
 				(size 1 1)
@@ -33,7 +33,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b5df8410-b47b-415d-8ede-a7e94b469649")
+		(uuid "00bad1ec-1511-4ef4-bbf0-02db58374783")
 		(effects
 			(font
 				(size 1 1)
@@ -46,7 +46,7 @@
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "0bbd5f38-0c1c-48d5-a0ee-c246ee0d05fc")
+		(uuid "ac2946fb-2131-40d2-93b1-a5f9db683aef")
 		(effects
 			(font
 				(size 1 1)
@@ -54,12 +54,51 @@
 			)
 		)
 	)
-	(property "Description" ""
+	(property "Description" "Generic connector, single row, 01x01, script generated"
 		(at 0 0 0)
 		(unlocked yes)
 		(layer "F.Fab")
 		(hide yes)
-		(uuid "b5803e74-fad9-4b73-8a49-693787a1fe8f")
+		(uuid "56cd5b9c-83a7-4a77-b8f5-b1a8ccf24349")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "4015-0-43-80-30-27-10-0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "f7be88e9-a677-4578-a109-81f301e8b533")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "C17526581"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2aaa61c3-4d0f-4a58-a3d3-f66eb04a60ac")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "0.754"
+		(at 0 0 180)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2b351d22-56b4-473f-b9fa-9477b83ab64d")
 		(effects
 			(font
 				(size 1 1)
@@ -72,7 +111,7 @@
 		(at 0 2.5 0)
 		(unlocked yes)
 		(layer "F.Fab")
-		(uuid "2ff0d6ff-b431-48d1-9789-f14509f2e400")
+		(uuid "09915a8d-8ffb-4920-9605-356da3aa0057")
 		(effects
 			(font
 				(size 1 1)
@@ -82,11 +121,11 @@
 	)
 	(pad "1" thru_hole oval
 		(at 0 0)
-		(size 1.9478 3.25)
-		(drill 1.4478)
+		(size 1.772 3.25)
+		(drill 1.422)
 		(layers "*.Cu" "*.Mask")
 		(remove_unused_layers no)
-		(uuid "44e4b884-7e6f-457e-9b40-6566ff720402")
+		(uuid "d664d67a-6faa-4b21-b7e7-6948e47420bd")
 	)
 	(model "C:/Users/Mitch/GitRepos/HHL-KiCad-Lib/models/MillMax-4015-0-43-80-30-27-10-0.stp"
 		(offset
