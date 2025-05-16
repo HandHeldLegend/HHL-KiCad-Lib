@@ -329,4 +329,15 @@
 		(thermal_bridge_angle 45)
 		(uuid "771f7a96-3d85-4f32-8161-a0232c896447")
 	)
+	(model "C:/Users/Mitch/GitRepos/HHL-KiCad-Lib/models/RM2MODULE.step"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
 )

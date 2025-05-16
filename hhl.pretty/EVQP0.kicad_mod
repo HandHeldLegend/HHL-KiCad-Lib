@@ -1,0 +1,260 @@
+(footprint "EVQP0"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(property "Reference" "SW14"
+		(at -0.228601 -4.0132 0)
+		(unlocked yes)
+		(layer "F.SilkS")
+		(uuid "00c63e65-9b70-4f83-aa7e-d3771bd6bff8")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "EVQ-P0E07K"
+		(at 0 1 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "e39f7ee1-7adb-46d4-97ce-df64c1088499")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "EVQP0"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "98811e4a-b4d5-4cac-809c-0303772b6058")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "cd8a4907-bd49-452f-bc2a-d74a8d6b324b")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Custom right angle silicone tactile switch 5mm button height"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9c65fe28-68ff-4a4b-bd3f-1015ee9ce911")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "MPN" "EVQ-P0E07K"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "6f284431-3bc5-43d2-a4ac-8fa0eabec189")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "JLCPN" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e5199844-a271-4426-b875-aad4074851dd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Price" "0.082"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "950e2225-9e8e-4e89-82cb-36cae6ed4474")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Confirmed" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "b3953cc5-7897-44b8-981a-ff23ab50bbcd")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Link" "-"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "7150ac00-9e82-41e9-a174-25668d716f38")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "LCSC" "-"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "ec154121-5922-47e0-9f6f-2fcaeb3cc7e3")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Package" "-"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e7383775-bf6e-4ecb-95a4-9d55a6bf1c0d")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start -3.1 -3.1)
+		(end -3.1 3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "e91d2631-1063-43ce-b3a2-71115c054c0a")
+	)
+	(fp_line
+		(start -3.1 -3.1)
+		(end -1.35 -3.101161)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "14391f3c-ed98-4bb0-8dc4-aa53fbd22fdd")
+	)
+	(fp_line
+		(start -3.1 3.1)
+		(end -1.35 3.098839)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "36f7f4fb-2c64-4f75-a9f3-cab5877bc073")
+	)
+	(fp_line
+		(start 1.35 -3.098839)
+		(end 3.1 -3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "0cb98f60-ae8d-4244-94ae-24b8eb2e8b56")
+	)
+	(fp_line
+		(start 1.35 3.101161)
+		(end 3.1 3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "461986e1-8636-4ec4-abcd-97c6806186bb")
+	)
+	(fp_line
+		(start 3.1 -3.1)
+		(end 3.1 3.1)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(layer "F.SilkS")
+		(uuid "996ab804-5a90-409c-a3fa-a64e017a4bce")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 4.5212 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(uuid "d78558c9-da34-4051-9937-a183f8e4c732")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 2.5)
+		(size 1.75 1.75)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "B.Paste")
+		(remove_unused_layers no)
+		(uuid "6018a8e0-b2ab-4deb-96cb-ba76c2811670")
+	)
+	(pad "2" thru_hole circle
+		(at 0 -2.5)
+		(size 1.75 1.75)
+		(drill 1)
+		(layers "*.Cu" "*.Mask" "B.Paste")
+		(remove_unused_layers no)
+		(uuid "f5b6895a-6399-480f-b8eb-f882e060573d")
+	)
+	(model "C:/Users/Mitch/GitRepos/HHL-KiCad-Lib/models/EVQP0-DE-07K.STEP"
+		(offset
+			(xyz 0 -3 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
