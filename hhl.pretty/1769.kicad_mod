@@ -1,0 +1,286 @@
+(footprint "1769"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "1769")
+	(tags "Connector")
+	(property "Reference" "J4"
+		(at -3.175 -1.0922 180)
+		(layer "F.SilkS")
+		(uuid "515989e0-27ac-4bab-a76d-a3efc39eb02d")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Value" "Adafruit 1769"
+		(at 0 2.321 180)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "4eb8887b-4ebb-467c-82fc-0c9f58c828cb")
+		(effects
+			(font
+				(size 0.5 0.5)
+				(thickness 0.1)
+			)
+		)
+	)
+	(property "Footprint" "1769"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "610e3a7e-f378-49a5-9f3a-e1343de8aafe")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34184dc0-7cf7-4fea-8b19-5146971c8b17")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(property "Description" "Adafruit Accessories JST-PH 2-pin SMT Right Angle Connect"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "2db33455-57d8-4bd6-8fe4-728df57b54fa")
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+	)
+	(attr smd)
+	(fp_line
+		(start -3.95 0)
+		(end -3.95 3.425)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "18d6c45f-151a-4c62-9ad3-7dae31a0d43a")
+	)
+	(fp_line
+		(start -3.95 0)
+		(end -1.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "80877d35-2088-4380-949a-5005bafdf6d1")
+	)
+	(fp_line
+		(start -2.196 6.849)
+		(end 2.196 6.849)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "6b71a1d4-81bb-4405-9321-d8a0f22f3d29")
+	)
+	(fp_line
+		(start -1.095 -2.582)
+		(end -1.095 -2.582)
+		(stroke
+			(width 0.052)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c5cdd429-78ca-463d-834a-b75e8ccbb33e")
+	)
+	(fp_line
+		(start -1.043 -2.582)
+		(end -1.043 -2.582)
+		(stroke
+			(width 0.052)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "62f6c1f1-0718-4a1a-a1d6-08f2f53a12a1")
+	)
+	(fp_line
+		(start 3.95 0)
+		(end 1.9 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "0e623ab6-3793-43f0-8d28-605b982c676e")
+	)
+	(fp_line
+		(start 3.95 0)
+		(end 3.95 3.425)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "c0adc180-95d3-4bae-8d15-08d7a415719b")
+	)
+	(fp_arc
+		(start -1.095 -2.582)
+		(mid -1.069 -2.608)
+		(end -1.043 -2.582)
+		(stroke
+			(width 0.052)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "16f85435-ea10-40e5-aee8-faa254ebebac")
+	)
+	(fp_arc
+		(start -1.043 -2.582)
+		(mid -1.069 -2.556)
+		(end -1.095 -2.582)
+		(stroke
+			(width 0.052)
+			(type solid)
+		)
+		(layer "F.SilkS")
+		(uuid "5a850581-86f0-4a41-9f9e-82b179970807")
+	)
+	(fp_line
+		(start -5.100001 8.25)
+		(end -5.1 -3.608)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "4290e0fc-d8f5-42c5-9d84-c01075934873")
+	)
+	(fp_line
+		(start -5.1 -3.608)
+		(end 5.1 -3.608)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "12669763-f4bf-4568-98a8-8a3416e4099b")
+	)
+	(fp_line
+		(start 5.1 -3.608)
+		(end 5.100001 8.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "8eef4726-cec6-41ef-b510-7e82651e675d")
+	)
+	(fp_line
+		(start 5.100001 8.25)
+		(end -5.100001 8.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.CrtYd")
+		(uuid "d83ae00a-fe62-42a3-a459-a90b2d0aed4e")
+	)
+	(fp_line
+		(start -3.95 0)
+		(end 3.95 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "5ee1fb04-67f4-4f7c-a858-1ff7b0afaa1e")
+	)
+	(fp_line
+		(start -3.95 6.849)
+		(end -3.95 0)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "144a7cae-6d7c-44ae-86b4-503f593ca25c")
+	)
+	(fp_line
+		(start 3.95 0)
+		(end 3.95 6.849)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "a07b91bf-4dd0-44c4-9ed0-3089c2bcc585")
+	)
+	(fp_line
+		(start 3.95 6.849)
+		(end -3.95 6.849)
+		(stroke
+			(width 0.2)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "72ab848a-e653-4919-8d66-4b9effe13039")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 0 2.321 180)
+		(layer "F.Fab")
+		(uuid "65f5164d-7bec-4677-b823-8724d0bcae75")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+			)
+		)
+	)
+	(pad "1" smd rect
+		(at -1 0)
+		(size 1 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "2939fbd8-d13f-4d06-bd68-bded79d7f56e")
+	)
+	(pad "2" smd rect
+		(at 1 0)
+		(size 1 3.5)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "62d900fc-ed85-44e4-a8f2-1c23ac42ea09")
+	)
+	(pad "MP1" smd rect
+		(at -3.35 5.55)
+		(size 1.5 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "cbc012b7-5895-4ec9-b760-dd0695f51db7")
+	)
+	(pad "MP2" smd rect
+		(at 3.35 5.55)
+		(size 1.5 3.4)
+		(layers "F.Cu" "F.Paste" "F.Mask")
+		(uuid "1e614f39-761b-415f-88c6-101189105b08")
+	)
+	(model "C:/Users/Mitch/GitRepos/HHL-KiCad-Lib/models/1769.stp"
+		(offset
+			(xyz 0 -7.070000065 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz -90 0 0)
+		)
+	)
+)
